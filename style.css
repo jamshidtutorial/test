@@ -1,0 +1,17 @@
+
+.img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+img:hover{
+    cursor: pointer;
+    filter: drop-shadow(20px 7px 5px green);
+}
+body{
+    background-color: aquamarine;
+    
+}
